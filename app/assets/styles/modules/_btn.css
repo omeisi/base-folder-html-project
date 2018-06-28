@@ -1,0 +1,16 @@
+.btn {
+	background-color: rgba(254, 76, 2, 1);
+	color:white;
+	text-decoration: none;
+	padding: 1rem 1.2rem;
+	display: inline-block;
+	font-weight: 300;
+	font-size: 1.1rem;
+	border-radius: 1rem;
+
+
+	&__large {
+		padding: 1.3rem 2rem;
+		background-color: rgba(254, 76, 2, 0.8);
+	}
+}
