@@ -270,44 +270,12 @@ template {
 [hidden] {
   display: none;
 }
+img {
+	max-width: 100%;
+	height: auto;
+}
 body {
 	font-family: 'Roberto', 'san-serif';
 	color:#333;
 }
-.pool {
-			
-			background-image: url("../../assets/images/pool.jpeg");
-			background-size:cover;
-			height: 100vh;
-			position:relative;
 
-			
-		}
-.pool__wave1 {
-				
-				background-color: none;
-				font-size: 10rem;
-				position: absolute;
-				top:52%;
-				right: 31%;
-				width: 75rem;
-				height: 24rem;
-				border-radius: 100px;
-				-webkit-transform: rotate(-17deg);
-				        transform: rotate(-17deg);
-			}
-.pool__wave2 {
-				
-				background-color: none;
-				font-size: 10rem;
-				position: absolute;
-				top:38%;
-				right: 0;
-				width: 40rem;
-				height: 23rem;
-				margin: 0;
-				border-radius: 100px;
-				-webkit-transform: rotate(2deg);
-				        transform: rotate(2deg);
-
-}

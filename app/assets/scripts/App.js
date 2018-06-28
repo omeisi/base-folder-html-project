@@ -1,7 +1,7 @@
 jQuery(document).ready(function(){
 
 	"use strict"
-	$(['.pool__wave1','.pool__wave2','.pool']).ripples({
+	$('.large-hero').ripples({
 
 		dropRadius: 10,
 		perturbance: 0.01,
