@@ -270,14 +270,13 @@ template {
 [hidden] {
   display: none;
 }
-img {
-	max-width: 100%;
-	height: auto;
-}
 body {
 	font-family: 'Roboto', 'sans-serif';
 	color:black;
 	background-color: rgba(139, 139, 139, 0.09);
+}
+* {
+	box-sizing: border-box;
 }
 .large-hero {
 	position: relative;
@@ -304,6 +303,7 @@ body {
 	}
 @media (min-width: 800px){
 .large-hero__text-dark {
+			background-color: rgba(0, 0, 0, 0.2);
 			top:15%
 	}
 	}
@@ -471,31 +471,37 @@ body {
 	font-weight: 400;
 	margin-bottom: 2rem;
 	font-size: 1.5rem;
-	color: black;
 	text-align: center;
 	
 }
 @media (min-width: 530px){
 .headline {
 		margin-bottom: 4rem;
-		font-size: 3.7rem;
-		margin-top: 0
+		font-size: 3.7rem
 	
 }
 	}
-.row__med-6__left {
+.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+@media (min-width: 800px){
+		.row__gutter > div {
+		padding-right:65px;
+
+	}
+	
+	.row__med-6 {
 		float: left;
 		width: 50%;
-		
 	}
-.row__med-6__right {
-		float: right;
-		width: 50%;
 	}
 .generic-content-container {
 	line-height: 1.65;
 	font-size: 1.125;
 	margin-top: 0 0 1.8rem 0 ;
+	text-align: center;
 }
 @media (min-width: 530px){
 .generic-content-container {
@@ -508,17 +514,44 @@ body {
 }
 .feture-item {
 	position: relative;
-	padding-left: 245px;
 }
 .feture-item__icon {
-		position: absolute;
-		left:15%;
-		width: 90px;
-	}
+			position: absolute;
+			width:4rem;
+			left:39%;
+			top:13%;
+			
+
+		}
 .feture-item__headline {
-		font-size: 2rem;
-		margin: 0 0 5px 0;
+			font-size: 1.5rem;
+			text-align: center;
+			margin-bottom: 4rem;
+		}
+@media (min-width: 530px){
+.feture-item {
+			position: relative;
+			padding-left: 245px
+} 
+
+			.feture-item__icon {
+			position: absolute;
+			left:15%;
+			width: 90px;
+			
+			}
+
+			.feture-item__headline {
+			font-size: 2rem;
+			margin: 0 0 5px 0;
+		}
 	}
+.team{
+	background-image: url("../../assets/images/testimonials-bg.jpg");
+	background-repeat: no-repeat;
+
+}
+
 
 
 

@@ -1,12 +1,23 @@
 .row {
-	&__med-6__left {
+
+	@mixin clearfix;
+
+
+	@mixin atMedium {
+		&__gutter > div {
+		padding-right:65px;
+
+	}
+	
+	&__med-6 {
 		float: left;
 		width: 50%;
-		
 	}
 
-	&__med-6__right {
-		float: right;
-		width: 50%;
+
+
 	}
+
+
+	
 }
