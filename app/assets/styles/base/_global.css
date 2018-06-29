@@ -7,5 +7,6 @@ img {
 body {
 	font-family: 'Roboto', 'sans-serif';
 	color:black;
+	background-color: rgba(139, 139, 139, 0.09);
 }
 

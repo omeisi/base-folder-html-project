@@ -1,0 +1,12 @@
+.row {
+	&__med-6__left {
+		float: left;
+		width: 50%;
+		
+	}
+
+	&__med-6__right {
+		float: right;
+		width: 50%;
+	}
+}

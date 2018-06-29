@@ -1,0 +1,16 @@
+.page-section {
+	padding: .5rem 0 ;
+	position: relative;
+
+	@mixin atSmall {
+		padding: 4.5rem 0 ;
+	}
+
+	&__background {
+		position: absolute;
+		background-color: red;
+		max-width: 100%;
+		height: 60px;
+		z-index: 10;
+	}
+}

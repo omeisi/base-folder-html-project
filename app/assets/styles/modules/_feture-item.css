@@ -1,0 +1,15 @@
+.feture-item {
+	position: relative;
+	padding-left: 245px; 
+	
+	&__icon {
+		position: absolute;
+		left:15%;
+		width: 90px;
+	}
+
+	&__headline {
+		font-size: 2rem;
+		margin: 0 0 5px 0;
+	}
+}
