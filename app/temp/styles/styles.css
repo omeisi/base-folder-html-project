@@ -273,10 +273,13 @@ template {
 body {
 	font-family: 'Roboto', 'sans-serif';
 	color:black;
-	background-color: rgba(139, 139, 139, 0.09);
+	
 }
 * {
 	box-sizing: border-box;
+}
+a {
+	color: #fe4c02;
 }
 .large-hero {
 	position: relative;
@@ -444,9 +447,10 @@ body {
 	}
 	}
 .wrapper {
+	overflow: hidden;
 	padding-left: 18px;
 	padding-right: 18px;
-	max-width: 1200px;
+	max-width: 1236px;
 	margin-left: auto;
 	margin-right:auto;
 	
@@ -454,18 +458,19 @@ body {
 .page-section {
 	padding: .5rem 0 ;
 	position: relative;
+
 }
 @media (min-width: 530px){
 .page-section {
 		padding: 4.5rem 0 
+
 }
 	}
-.page-section__background {
-		position: absolute;
-		background-color: red;
-		max-width: 100%;
-		height: 60px;
-		z-index: 10;
+.page-section__blue {
+		background-color: rgba(47, 85, 114, 0.2);;
+	}
+.page-section__blue2 {
+		background-color: rgba(47, 85, 114, 1);;
 	}
 .headline {
 	font-weight: 400;
@@ -486,71 +491,126 @@ body {
 		clear: both;
 		display: table;
 	}
-@media (min-width: 800px){
-		.row__gutter > div {
-		padding-right:65px;
+.row__med-3 {
+				max-width: 25%;
+				float: left;
+				padding-left: 65px;
+				background-color: red; 
+				
+			}
+.row__med-4 {
+				width: 33.33%;
+				float: left;
+				background-color: green;
+			 
+			}
+.row__med-6 {
+				width: 50%;
+				float: left;
 
+			}
+.row__space > div {
+				padding:0 66px;
+			}
+.generic-content-container p {
+		font-weight: 300;
+		line-height: 1.65;
+		margin: 1.8rem 0;
+		
 	}
-	
-	.row__med-6 {
-		float: left;
-		width: 50%;
-	}
-	}
-.generic-content-container {
-	line-height: 1.65;
-	font-size: 1.125;
-	margin-top: 0 0 1.8rem 0 ;
-	text-align: center;
-}
 @media (min-width: 530px){
 .generic-content-container {
-		margin:0 0 1.8rem 0
-}
-	}
-.section-title {
-	font-size: 2rem;
+		font-size: 1.125rem
+	
+
 	
 }
+	}
+.generic-content-container p a {
+		font-weight: 700;
+	}
 .feture-item {
+	padding: 0 0 2rem 5.8rem;
 	position: relative;
+
+
 }
 .feture-item__icon {
 			position: absolute;
-			width:4rem;
-			left:39%;
-			top:13%;
+			width:65px;
+			height: 65px;
+			left:0;
+		}
+.feture-item__title {
+			font-size: 1.875rem;
+			font-weight: 400;
+			margin-bottom: .8rem;
 			
-
 		}
-.feture-item__headline {
-			font-size: 1.5rem;
-			text-align: center;
-			margin-bottom: 4rem;
-		}
-@media (min-width: 530px){
-.feture-item {
-			position: relative;
-			padding-left: 245px
-} 
+.team {
+		background-color: green;
+}
+.team__img {
+		width: 100%;
+		height: 14rem;
+		border-radius: 8rem;
 
-			.feture-item__icon {
-			position: absolute;
-			left:15%;
-			width: 90px;
-			
-			}
-
-			.feture-item__headline {
-			font-size: 2rem;
-			margin: 0 0 5px 0;
-		}
 	}
-.team{
-	background-image: url("../../assets/images/testimonials-bg.jpg");
-	background-repeat: no-repeat;
+.team__headline {
+		text-align: center;
+		font-size: 1.8rem;
+	}
+.team__info {
+		text-align: center;
+		font-size: 1rem;
+	}
+.team__linkedin {
+		width: 1rem;
+		height: 1rem;
+		margin-left: 50%;
+		margin-bottom: 35px;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
+
+	}
+.service__block {
+				background-color: red;
+				margin:0 2rem;
+			}
+.service__img {
+			width: 100px;
+			}
+.service__headline {
+				
+				text-align: center;
+				font-size: 1.5rem;
+			}
+.service__icon{
+				
+			}
+.test {
+
+		
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		left: 0;
+		height: 100px;
+		background-color: green;
 
 }
+.test__4 {
+			 width: 33.33%;
+			 height: 200px;
+   			 float:left; 
+  			 border: 1px solid red;
+  			 background-color: blue;
+		}
+
+
+
+
 
 
 

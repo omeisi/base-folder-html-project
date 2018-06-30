@@ -1,36 +1,21 @@
 .feture-item {
+	padding: 0 0 2rem 5.8rem;
 	position: relative;
+	
+
 		&__icon {
 			position: absolute;
-			width:4rem;
-			left:39%;
-			top:13%;
+			width:65px;
+			height: 65px;
+			left:0;
+		}
+
+		&__title {
+			font-size: 1.875rem;
+			font-weight: 400;
+			margin-bottom: .8rem;
 			
-
-		}
-		
-			&__headline {
-			font-size: 1.5rem;
-			text-align: center;
-			margin-bottom: 4rem;
 		}
 
 
-		@mixin atSmall {
-			position: relative;
-			padding-left: 245px; 
-
-			&__icon {
-			position: absolute;
-			left:15%;
-			width: 90px;
-			
-			}
-
-			&__headline {
-			font-size: 2rem;
-			margin: 0 0 5px 0;
-		}
-	
-	}
 }
