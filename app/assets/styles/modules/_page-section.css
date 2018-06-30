@@ -7,11 +7,17 @@
 	}
 
 	&__blue {
-		background-color: rgba(47, 85, 114, 0.2);;
+		background-color: #2f5572;
 	}
 
-	&__blue2 {
-		background-color: rgba(47, 85, 114, 1);;
+	&__light-blue {
+		background-color: #2f5572b0;
+	}
+
+	&__picture-service {
+		background: url('/assets/images/team-background.jpg') top center no-repeat;
+		background-size: cover;
+		
 	}
 
 }
