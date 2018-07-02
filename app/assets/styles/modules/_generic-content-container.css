@@ -9,16 +9,36 @@
 	ul li {
 		font-weight: 300;
 		line-height: 1.2;
-		margin: 1.8rem 0;
+		margin: 1rem 0;
 	}
 
-	@mixin atSmall {
-		font-size: 1.125rem;
-	}
 
 	p a {
 		font-weight: 600;
 	}
+
+	&__white {
+		color: white;
+
+		p {
+		font-weight: 300;
+		line-height: 1.65;
+		margin: 1.8rem 0;
+		
+	}
+
+	ul li {
+		font-weight: 300;
+		line-height: 1.2;
+		margin: 1.8rem 0;
+	}
+
+
+	p a {
+		font-weight: 600;
+	}
+
+}
 
 
 	

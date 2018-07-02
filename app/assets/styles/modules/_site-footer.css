@@ -1,0 +1,37 @@
+.site-footer {
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+
+	
+	&__img {
+		width: 30px;
+		height: 30px;
+		margin: 10px;
+		filter: grayscale(100%);
+
+	}
+
+	&__last {
+		text-align: center;
+	}
+	&__background-last {
+		background-color:black;
+	}
+
+	&__space {
+		margin-right: 2rem
+	}
+
+	&__block {
+		padding-left: 70px;
+		position: relative;
+	}
+	
+	&__icon {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		left:0;
+	}
+
+}

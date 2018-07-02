@@ -13,13 +13,14 @@
 		color: white;
 	}
 
-
+	&__right {
+		text-align: right;
+	}
 
 	
 	@mixin atSmall {
 		margin-bottom: 4rem;
 		font-size: 3.7rem;
-		
 
 	}
 	
