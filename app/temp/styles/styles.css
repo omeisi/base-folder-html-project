@@ -563,6 +563,8 @@ a {
 	}
 .generic-content-container p a {
 		font-weight: 600;
+		text-decoration: none;
+		font-size: 1.2rem
 	}
 .generic-content-container__white {
 		color: white;
