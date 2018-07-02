@@ -1,0 +1,47 @@
+.tech {
+	position: relative;
+	
+
+	
+	&__img {
+		height: 70rem;
+		width: 100%;
+		display: block;
+
+		
+		
+	}
+
+	&__content-left {
+		max-width: 400px;
+		color: white;
+		opacity: 0.8;
+		position: absolute;
+		z-index: 1;
+		top: 100px;
+		
+		
+	}
+
+	&__content-right {
+		max-width: 400px;
+		color: white;
+		opacity: 0.8;
+		position: absolute;
+		z-index: 1;
+		top: 100px;
+		right: 5rem;
+		
+	}
+
+	&__headline {
+		font-weight: 700;
+		font-size: 3.5rem;
+		color:$mainOrange;
+		
+	}
+
+	&__p{
+		font-size: 1.25rem;
+	}
+}

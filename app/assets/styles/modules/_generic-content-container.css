@@ -6,6 +6,12 @@
 		
 	}
 
+	ul li {
+		font-weight: 300;
+		line-height: 1.2;
+		margin: 1.8rem 0;
+	}
+
 	@mixin atSmall {
 		font-size: 1.125rem;
 	}
@@ -13,6 +19,7 @@
 	p a {
 		font-weight: 600;
 	}
+
 
 	
 
