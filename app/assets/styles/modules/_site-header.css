@@ -1,0 +1,30 @@
+.site-header {
+	padding: 10px;
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(#333333, 0.3);
+	width: 100%;
+
+	&__btn-container {
+		
+		float: right;
+
+		a {
+			margin:0 1rem;
+		}
+	}
+	
+	img {
+		width: 182px;
+		height: 80px;
+	}
+	
+
+	&__logo {
+		top:0;
+		position: absolute;
+		background-color: #333333;
+		padding: 10px 36px ;
+
+	}
+}
