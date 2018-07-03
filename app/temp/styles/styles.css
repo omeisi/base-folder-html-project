@@ -297,6 +297,8 @@ a {
 	}
 .large-hero__picture {
 		display: block;
+		width: 100%;
+		height: 768px; 
 	}
 .large-hero__ripple {
 		width: 100%;
