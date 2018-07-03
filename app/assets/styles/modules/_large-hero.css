@@ -1,9 +1,9 @@
 .large-hero {
-	
+	position: relative;
 
 	&__text-content {
 		position: absolute;
-		top:50%;
+		top:30%;
 		transform: translateY(-50%);
 		left:0;
 		width: 100%;
@@ -12,6 +12,14 @@
 
 	&__picture {
 		display: block;
+	}
+
+	&__ripple {
+		width: 100%;
+		height: 520px;
+		position: absolute;
+		z-index: 10;
+		top:517px;
 	}
 
 	

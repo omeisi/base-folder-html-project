@@ -279,11 +279,16 @@ body {
 	box-sizing: border-box;
 }
 a {
-	color: rgba(254, 76, 2, 1);
+	color: #fe4c02;
+}
+.large-hero {
+	position: relative;
+
+	
 }
 .large-hero__text-content {
 		position: absolute;
-		top:50%;
+		top:30%;
 		-webkit-transform: translateY(-50%);
 		        transform: translateY(-50%);
 		left:0;
@@ -293,16 +298,26 @@ a {
 .large-hero__picture {
 		display: block;
 	}
+.large-hero__ripple {
+		width: 100%;
+		height: 520px;
+		position: absolute;
+		z-index: 10;
+		top:517px;
+	}
 .btn {
-	background-color: rgba(254, 76, 2, 1);
+	border: 2px solid #fe4c02; 
 	color:white;
 	text-decoration: none;
 	padding: 0.8rem 1rem;
 	display: inline-block;
 	font-weight: 300;
 	font-size: 0.8rem;
-	border-radius: 1rem;
 }
+.btn:hover {
+		background-color: rgba(254,76,2, 0.5);
+		transition: all 1s ease-out;
+	}
 @media (min-width: 530px){
 .btn {
 		  font-size: 1.1rem;
@@ -323,23 +338,18 @@ a {
 	}
 .btn__large {
 		padding: 0.5rem 1rem;
-		background-color: rgba(254, 76, 2, 0.8);
-	}
-@media (min-width: 530px){
-.btn__large {
-		  padding: 1rem 1rem
-	}
-	}
-@media (min-width: 800px){
-.btn__large {
-			font-weight: 300
-	}
 	}
 @media (min-width: 1200px){
 .btn__large {
-			font-weight: 300;
-			font-size: 1.5rem
+			font-weight: 400;
+			font-size: 2rem;
+			padding: 2rem;
+			background-color: rgba(0, 0, 0, 0.6)
 	}
+
+			.btn__large:hover {
+				background-color: rgba(254, 76, 2, 0.5);
+			}
 	}
 .btn__last {
 		margin:0 5rem;
@@ -390,7 +400,7 @@ a {
 	
 }
 .headline strong {
-		color: rgba(254, 76, 2, 1);
+		color: #fe4c02;
 	}
 .headline__white {
 		color: white;
@@ -616,7 +626,7 @@ a {
 .tech__headline {
 		font-weight: 700;
 		font-size: 3.5rem;
-		color: rgba(254, 76, 2, 1);
+		color:#fe4c02;
 		
 	}
 .tech__p{
@@ -707,6 +717,7 @@ a {
 .primary-nav ul {
 		margin:0;
 		padding:0;
+
 	}
 .primary-nav ul::after {
 		content: "";
@@ -716,16 +727,24 @@ a {
 .primary-nav li {
 		list-style: none;
 		float: left;
-		padding-right: 20px;
-		padding-top:15px;
-
+		padding-top: 15px;
+		
 	}
 .primary-nav a {
 		color: #FFF;
 		text-decoration: none;
 		font-weight: 300;
+		padding: 0 0.8rem;
 
+		
 	}
+.primary-nav a:hover {
+		box-shadow: 0px 5px 50px 10px rgba(254,76,2,.5);
+		transition: all 1s ease-out;
+	}
+.slider {
+	
+}
 
 
 

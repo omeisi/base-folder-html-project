@@ -36,6 +36,7 @@
     "postcss-simple-vars": "^4.1.0",
     "rollup": "^0.62.0",
     "rollup-plugin-license": "^0.6.0",
-    "rollup-plugin-uglify": "^4.0.0"
+    "rollup-plugin-uglify": "^4.0.0",
+    "webpack": "^4.14.0"
   }
 }

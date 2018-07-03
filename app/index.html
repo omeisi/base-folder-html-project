@@ -18,6 +18,7 @@
 
       <!--CSS LINK -->
       <link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
+      
 </head>
 	
 
@@ -53,8 +54,10 @@
 		<picture >
 			<img  srcset="assets/images/large--hero-small.jpg 570w, assets/images/large--hero-med.jpg 1200w, assets/images/large--hero.jpg 1920w," alt="toronto view" class="large-hero__picture">
 		</picture>
-		
-		
+      
+      <div class="large-hero__ripple"></div>
+
+
 			<div class="large-hero__text-content">
 				<p><a class="btn btn__large" href="#">Get Started Today</a></p>
 			</div>
@@ -397,8 +400,10 @@
       <!--WRAPPER STARTS-->
       <h1 class="headline"><strong>SERVICES</strong></h1>
         <!--ROW STARTS-->
+
         <div class="row row__t-padding row__space-small row__equel-hight-at-med generic-content-container">
           <!--1-->
+          
               <div class="row__med-4 ">
                 <div class="service">
                     <div class="service__icon"><img class="service__img" src="/assets/images/icons/project-managment.svg" alt="PROJECT MANAGEMENT"></div>
@@ -658,6 +663,22 @@
 </div>
 
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/scripts/modules/rippleEfect/jquery.ripples-min.js"></script>
+<script src="/temp/scripts/App.js"></script>
+
+
+<script>
+  $('.large-hero__ripple').ripples({
+  dropRadius: 20, 
+  perturbance: 0.03,
+  resolution: 1000 
+
+});
+</script>
+
+
+<!--boot strap ripple-->
 
 </body>
 	
