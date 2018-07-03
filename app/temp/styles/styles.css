@@ -300,10 +300,10 @@ a {
 	}
 .large-hero__ripple {
 		width: 100%;
-		height: 520px;
+		height: 470px;
 		position: absolute;
 		z-index: 10;
-		top:517px;
+		top:528px;
 	}
 .btn {
 	border: 2px solid #fe4c02; 
@@ -599,6 +599,8 @@ a {
 		height: 70rem;
 		width: 100%;
 		display: block;
+		
+
 
 		
 		
@@ -610,6 +612,7 @@ a {
 		position: absolute;
 		z-index: 1;
 		top: 100px;
+		display: none;
 		
 		
 	}
@@ -621,6 +624,7 @@ a {
 		z-index: 1;
 		top: 100px;
 		right: 5rem;
+		display: none;
 		
 	}
 .tech__headline {
@@ -657,6 +661,8 @@ a {
 .site-footer {
 	background-color: rgba(0,0,0,0.9);
 	color: white;
+	position: absolute;
+	width: 100%;
 
 }
 .site-footer__img {
@@ -743,8 +749,28 @@ a {
 		transition: all 1s ease-out;
 	}
 .slider {
-	
+	position: relative;
+	width: 100%;
+	height: 941px;
 }
+.slider__slide {
+		position: absolute;
+		width: 100%;
+		
+		
+	}
+.reveal-item {
+	opacity: 0;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.15);
+	        transform: scale(1.15);
+}
+.reveal-item__is-visible {
+		opacity: 1;
+		-webkit-transform : scale(1);
+		        transform : scale(1);
+	}
+
 
 
 

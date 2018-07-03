@@ -1,12 +1,14 @@
 .tech {
 	position: relative;
 	
-
 	
+
 	&__img {
 		height: 70rem;
 		width: 100%;
 		display: block;
+		
+
 
 		
 		
@@ -19,6 +21,7 @@
 		position: absolute;
 		z-index: 1;
 		top: 100px;
+		display: none;
 		
 		
 	}
@@ -31,6 +34,7 @@
 		z-index: 1;
 		top: 100px;
 		right: 5rem;
+		display: none;
 		
 	}
 
