@@ -38,13 +38,13 @@
       
     <nav class="primary-nav primary-nav__pull-right">
       <ul>
-         <li><a  href="#About">About</a></li>
-             <li><a  href="#team">Team</a></li>
+             <li><a  href="#about" id="about-link">About</a></li>
+             <li><a  href="#team" id="team-link">Team</a></li>
              <li><a  href="#Information">Info</a></li>
-             <li><a  href="#Services">Services</a></li>
+             <li><a  href="#service" id="service-link">Services</a></li>
              <li><a  href="#panel">Panel</a></li>
-             <li><a  href="#contact">Contact</a></li>
-             <li><a  href="apply.html">Careers</a></li>   
+             <li><a  href="#contact" id="contact-link">Contact</a></li>
+             <li><a  href="apply.html" id="tech-link">Tech</a></li>   
       </ul>
     </nav>
       </div>
@@ -65,7 +65,7 @@
 		</div>
 	
 
-	<div id="About" class="page-section  page-section__blue">
+	<div id="about" class="page-section  page-section__blue" data-matching-link="#about-link">
     <div class="wrapper">
 			 <h1 class="headline headline__white">BUILT TO EXCEL AT <strong>ONLINE RESEARCH 	</strong></h1>
 
@@ -103,7 +103,7 @@
 	</div>
 
 
-<div id="Team " class="page-section page-section__light-blue">
+<div id="team" class="page-section page-section__light-blue" data-matching-link="#team-link">
   <div class="wrapper">
       <h2 class="headline headline__white">OUR <strong>TEAM</strong></h2>
   
@@ -395,7 +395,7 @@
   </div>
 </div>
 
-<div id="Service" class="page-section page-section__picture-service ">
+<div id="service" class="page-section page-section__picture-service " data-matching-link = "#service-link">
     <!--SERVICE STARTS-->
     <div class="wrapper">
       <!--WRAPPER STARTS-->
@@ -506,7 +506,7 @@
 
 <!--TECH AND TOOLS STARTS-->
 
-<div class="tech tech__display-block ">
+<div class="tech tech__display-block " data-matching-link="#tech-link">
  
   <div id="Tech-and-tools" class="tech ">
    <img class="tech__img" src="assets/images/QUEST-TITAN.jpg" alt="">
@@ -635,7 +635,7 @@
 </div>
 
 <!--footer-->
-<footer id="FOOTER" class="site-footer page-section__no-b-padding generic-content-container">
+<footer id="contact" class="site-footer page-section__no-b-padding generic-content-container" data-matching-link="#contact-link">
   
   <div class="wrapper ">  
     <div class="row row__space ">
@@ -685,7 +685,7 @@
 
 </div>
 
-<div class="site-footer__background-last">
+<div  class="site-footer__background-last" >
   <div  wrapper">
   <div class="site-footer__last"><p class="site-footer__space">© 2018 Quest Mindshare. All Rights Reserved. Privacy Policy <a class="btn btn__last" href="#">Get Started Today</a></p> </div>
  </div>

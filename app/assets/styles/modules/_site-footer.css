@@ -14,6 +14,7 @@
 	}
 
 	&__last {
+		
 		text-align: center;
 	}
 	&__background-last {
@@ -21,13 +22,14 @@
 	}
 
 	&__space {
-		margin-right: 2rem
+		padding: 1rem 0;
 	}
 
 	&__block {
 		padding-left: 70px;
 		position: relative;
 	}
+
 	
 	&__icon {
 		width: 30px;

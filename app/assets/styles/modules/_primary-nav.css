@@ -24,7 +24,10 @@
 		text-decoration: none;
 		font-weight: 300;
 		padding: 0 0.8rem;
-
+		
+		&.is-current-link {
+			color:$mainOrange;
+		}
 		
 	}
 
