@@ -1,5 +1,6 @@
 .large-hero {
 	position: relative;
+	display: block;
 
 	&__text-content {
 		position: absolute;
@@ -10,21 +11,25 @@
 		text-align: center;
 	}
 
-	&__picture {
-		display: block;
+	&__img {
+		background: url("/assets/images/large--hero.jpg");
+		    width: 100%;
+    		height: 70rem;
+    		position: relative;	
+	}
+
+	&__dark {
 		width: 100%;
-		height: 768px;1366x768  
+		height: 38rem;
+		background-color: black;
+		z-index: 300;
+		position: absolute;
+		background: url("/assets/images/large--hero.jpg");
+    		
+
 	}
 	
-	&__ripple {
-		height: 70rem;
-	}
-
-	&__img {
-
-		
-		
-	}
+	
 
 	
 }
