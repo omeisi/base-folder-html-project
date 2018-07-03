@@ -5,7 +5,7 @@ import smoothScroll from 'jquery-smooth-scroll';
 class StickyHeader {
 	constructor () {
 		this.siteHeader = $(".site-header");
-		this.darkTrigger = $(".wrapper");
+		this.darkTrigger = $(".large-hero__text-content");
 		this.createHeaderWaypoint();
 		this.pageSections = $(".page-section, .page-section__no-b-padding");
 		this.headerLink = $(".primary-nav a");
