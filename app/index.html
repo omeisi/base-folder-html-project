@@ -32,8 +32,8 @@
         </div>
 
       <div class="site-header__btn-container">
-        <a class="btn" href="./join">Join Our Panel</a>
-       <a class="btn" href="#">Log in</a>
+        <a class="btn open-modal" href="./join">Join Our Panel</a>
+       <a class="btn open-modal" href="#">Log in</a>
       </div>
       
     <nav class="primary-nav primary-nav__pull-right">
@@ -58,7 +58,7 @@
 
 
 			<div class="large-hero__text-content">
-				<p><a class="btn btn__large" href="#">Get Started Today</a></p>
+				<p><a class="btn open-modal btn__large" href="#">Get Started Today</a></p>
 			</div>
 		</div>
 	
@@ -476,28 +476,37 @@
 <!--SERVICE ENDS-->
 
 <!--test-->
+
+<p class="left-arrow"><</p>
+<p class="right-arrow">></p>
+
+
 <div class="slider">
-    <div class="slider__slide">
-        <img class="tech__img" src="assets/images/QUEST-TITAN.jpg" alt="">
+
+    <div class="slider__slide slider__active">
+        <img class="slider__img" src="assets/images/QUEST-TITAN.jpg" alt="">
     </div>
 
 
     <div class="slider__slide">
-        <img class="tech__img" src="assets/images/QUEST-DETECT.jpg" alt="">
+        <img class="slider__img" src="assets/images/QUEST-DETECT.jpg" alt="">
     </div>
 
 
     <div class="slider__slide">
-        <img class="tech__img" src="assets/images/programing-hosting.jpg" alt="">
+        <img class="slider__img" src="assets/images/programing-hosting.jpg" alt="">
     </div>
         
 
     <div class="slider__slide">
-        <img class="tech__img" src="assets/images/PHP-PROGRAMMING.jpg" alt="">
+        <img class="slider__img" src="assets/images/PHP-PROGRAMMING.jpg" alt="">
     </div>
+
 </div>
 
-<div class="slider__arrow-left slider__arrow-left"> < > </div>
+
+
+  
 <!--test-->
 
 
@@ -685,12 +694,54 @@
 
 <div  class="site-footer__background-last" >
   <div  wrapper">
-  <div class="site-footer__last"><p class="site-footer__space">© 2018 Quest Mindshare. All Rights Reserved. Privacy Policy <a class="btn btn__last" href="#">Get Started Today</a></p> </div>
+  <div class="site-footer__last"><p class="site-footer__space">© 2018 Quest Mindshare. All Rights Reserved. Privacy Policy <a class="btn open-modal btn__last" href="#">Get Started Today</a></p> </div>
  </div>
 
 </div>
 
 </footer>
+
+<!--MODAL-->
+<div class="modal">
+  
+ <div class="wrapper">
+  <div class="modal__content">
+     <img class="modal__icon" src="/assets/images/icons/envelope.svg" >
+      <h3 class="modal__headline " >GET IN <strong>TOUCH</strong> </h3>
+      
+
+      <div class="modal-form">
+        <form action="/action_page.php">
+          
+        <div > 
+          <input class="modal-form__first-and-last" type="text"  name="firstname" placeholder="Your name..">
+          <input class="modal-form__first-and-last" type="text"  name="lastname" placeholder="Your last name..">
+       </div>
+        
+        <div ">
+          <input class="modal-form__email" type="text" name="email" placeholder="Your email..">
+        </div>
+          
+          <div >
+               <textarea class="modal-form__messege" name="subject" placeholder="Send us a messege.." ></textarea>
+          </div>
+
+          
+          <input class="modal-form__submit" type="submit" value="Submit">
+
+        </form>
+
+        </div>
+      </div>  
+  </div>
+  <div class="modal-form__close">X</div>
+</div>
+
+<!--MODAL-->
+
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/assets/scripts/modules/rippleEfect/jquery.ripples-min.js"></script>
 <script src="/temp/scripts/App.js"></script>

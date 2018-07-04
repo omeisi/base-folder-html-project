@@ -6,7 +6,46 @@
 	&__slide {
 		position: absolute;
 		width: 100%;
-		
-		
+		height: 100%;
+		display: none;
 	}
+
+	&__active {
+		display: block;
+	}
+
+	&__img{
+		width: 100%;
+		height: 70rem;
+	}
+
+
+
 }
+
+.left-arrow {
+position: absolute;
+left: 30px;
+font-size: 3rem;
+color:white;
+z-index: 4;
+cursor: pointer;
+}
+
+.right-arrow {
+position: absolute;
+right: 30px;
+font-size: 3rem;
+color:white;
+z-index: 4;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

@@ -2,6 +2,8 @@
   "name": "quest-project",
   "version": "1.0.0",
   "dependencies": {
+    "ajv": "^6.5.2",
+    "ajv-keywords": "^3.2.0",
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "^4.0.4",
     "normalize.css": "^8.0.0",
