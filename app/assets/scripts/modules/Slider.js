@@ -3,26 +3,26 @@ import	$ from 'jquery';
 class Slider {
 	constructor(){
 		$(".right-arrow").click(function(){
-			var currentSlide = $(".slider__active");
+			var currentSlide = $(".tech__container-active");
 			var nextSlide = currentSlide.next();
 
-			currentSlide.fadeOut(300).removeClass("slider__active");
-			nextSlide.fadeIn(300).addClass("slider__active");
+			currentSlide.fadeOut(300).removeClass("tech__container-active");
+			nextSlide.fadeIn(300).addClass("tech__container-active");
 
 			if(nextSlide.length == 0) {
-				$('.slider__slide').first().fadeIn(300).addClass('slider__active');
+				$(".tech__container").first().fadeIn(300).addClass("tech__container-active");
 			}
 		});
 
-		$('.left-arrow').click(function(){
-			var currentSlide = $(".slider__active");
+		$(".left-arrow").click(function(){
+			var currentSlide = $(".tech__container-active");
 			var prevSlide = currentSlide.prev();
 
-			currentSlide.fadeOut(300).removeClass('slider__active');
-			prevSlide.fadeIn(300).addClass('slider__active');
+			currentSlide.fadeOut(300).removeClass("tech__container-active");
+			prevSlide.fadeIn(300).addClass("tech__container-active");
 
 			if(prevSlide.length == 0) {
-				$('.slider__slide').last().fadeIn(300).addClass('slider__active');
+				$(".tech__container").last().fadeIn(300).addClass("tech__container-active");
 			}
 		});
 	}

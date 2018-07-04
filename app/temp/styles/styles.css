@@ -393,8 +393,11 @@ a {
 .page-section__blue {
 		background-color: #2f5572;
 	}
-.page-section__light-blue {
-		background-color: #2f5572b0;
+.page-section__grey {
+		background-color: #43443e;
+	}
+.page-section__black {
+		background-color: black;
 	}
 .page-section__picture-service {
 		background: url('/assets/images/team-background.jpg') top center no-repeat;
@@ -606,48 +609,103 @@ a {
 			}
 .tech {
 	position: relative;
+
+
 }
-.tech__img {
-		height: 70rem;
-		width: 100%;
-		display: block;
-		
-
-
-		
-		
+.tech__title {
+		z-index: 1;
+		position: absolute;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
+		top:-40px;
+		color: white;
 	}
+.tech__slider {
+		width: 100%;
+		height: 60rem;
+		position: relative;
+	}
+.tech__container {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: none;
+	}
+.tech__container-active {
+		display: block;
+	}
+.tech__img {
+		position: absolute;
+		height: 100%;
+		width: 100%;	
+		
+		}
 .tech__content-left {
 		max-width: 400px;
 		color: white;
 		opacity: 0.8;
 		position: absolute;
-		z-index: 1;
 		top: 100px;
-		display: none;
-		
-		
+		left: 62px;	
 	}
 .tech__content-right {
 		max-width: 400px;
 		color: white;
 		opacity: 0.8;
 		position: absolute;
-		z-index: 1;
 		top: 100px;
 		right: 5rem;
-		display: none;
+		
 		
 	}
 .tech__headline {
 		font-weight: 700;
 		font-size: 3.5rem;
 		color:#fe4c02;
-		
+
+
 	}
-.tech__p{
+.tech__p {
 		font-size: 1.25rem;
 	}
+/* arrows for the tech slider*/
+.left-arrow {
+			position: absolute;
+			left: 30px;
+			font-size: 2rem;
+			color:white;
+			z-index: 4;
+			cursor: pointer;
+			-webkit-transform: scaleY(3);
+			        transform: scaleY(3);
+			transition: all 0.5s ease-out;
+
+		}
+.left-arrow:hover {
+				color: #fe4c02;
+				cursor: pointer;
+				transition: all 0.2s ease-out;
+				font-size: 2.5rem;
+			}
+.right-arrow {
+			position: absolute;
+			right: 30px;
+			font-size: 2rem;
+			color:white;
+			z-index: 4;
+			cursor: pointer;
+			-webkit-transform: scaleY(3);
+			        transform: scaleY(3);
+			transition: all 0.5s ease-out;
+
+		}
+.right-arrow:hover {
+				color: #fe4c02;
+				cursor: pointer;
+				transition: all 0.2s ease-out;
+				font-size: 2.5rem;
+			}
 .clients__container{
 		margin:auto;
 		
@@ -781,72 +839,6 @@ a {
 		box-shadow: 0px 5px 50px 10px rgba(254,76,2,.5);
 		transition: all 1s ease-out;
 	}
-.slider {
-	position: relative;
-	width: 100%;
-	height: 941px;
-
-
-
-
-
-}
-.slider__slide {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		display: none;
-	}
-.slider__active {
-		position: absolute;
-	}
-.slider____content-left {
-		display: block;
-		position: absolute;
-		width: 352px;
-		margin-left: 6rem;
-		z-index: 100;
-	}
-.slider__img{
-		width: 100%;
-		height: 70rem;
-	}
-.left-arrow {
-			position: absolute;
-			left: 30px;
-			font-size: 2rem;
-			color:white;
-			z-index: 4;
-			cursor: pointer;
-			-webkit-transform: scaleY(3);
-			        transform: scaleY(3);
-			transition: all 0.5s ease-out;
-
-		}
-.left-arrow:hover {
-				color: #fe4c02;
-				cursor: pointer;
-				transition: all 0.2s ease-out;
-				font-size: 2.5rem;
-			}
-.right-arrow {
-			position: absolute;
-			right: 30px;
-			font-size: 2rem;
-			color:white;
-			z-index: 4;
-			cursor: pointer;
-			-webkit-transform: scaleY(3);
-			        transform: scaleY(3);
-			transition: all 0.5s ease-out;
-
-		}
-.right-arrow:hover {
-				color: #fe4c02;
-				cursor: pointer;
-				transition: all 0.2s ease-out;
-				font-size: 2.5rem;
-			}
 .reveal-item {
 	opacity: 0;
 	transition: all 1.5s ease-out;

@@ -15,8 +15,13 @@
 		background-color: #2f5572;
 	}
 
-	&__light-blue {
-		background-color: #2f5572b0;
+	&__grey {
+		background-color: #43443e;
+	}
+
+
+	&__black {
+		background-color: black;
 	}
 
 	&__picture-service {
