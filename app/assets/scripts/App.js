@@ -8,7 +8,8 @@ import Modal from './modules/Modal';
 
 
 new RevealOnScroll($('.feture-item'),'85%');
-new RevealOnScroll($('.service'), '60%');
+new RevealOnScroll($('.service'), '70%');
+new RevealOnScroll($('.row__med-3'), '70%');
 var stickyHeader = new StickyHeader();
 var slider = new Slider();
 var modal = new Modal();
