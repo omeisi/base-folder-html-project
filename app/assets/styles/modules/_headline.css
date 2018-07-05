@@ -17,6 +17,10 @@
 		text-align: right;
 	}
 
+	&__orange {
+		color: $mainOrange;
+	}
+
 	
 	@mixin atSmall {
 		margin-bottom: 4rem;

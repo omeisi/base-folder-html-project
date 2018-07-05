@@ -1,0 +1,14 @@
+.panel {
+
+	
+
+	&__box {
+		margin: 1rem;
+		width: 100px; 
+		height:100px;
+		background-color: red;
+		overflow: hidden;
+		border-radius: 80px ;
+
+	}
+}

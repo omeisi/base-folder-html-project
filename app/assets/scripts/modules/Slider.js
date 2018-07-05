@@ -2,7 +2,14 @@ import	$ from 'jquery';
 
 class Slider {
 	constructor(){
-		$(".right-arrow").click(function(){
+	
+		this.clickLeftAndRightArrow();
+		this.automationSlide();
+	}
+
+	clickLeftAndRightArrow () {
+
+			$(".right-arrow, .left-arrow").click(function(){
 			var currentSlide = $(".tech__container-active");
 			var nextSlide = currentSlide.next();
 
@@ -13,20 +20,22 @@ class Slider {
 				$(".tech__container").first().fadeIn(300).addClass("tech__container-active");
 			}
 		});
+	}
 
-		$(".left-arrow").click(function(){
-			var currentSlide = $(".tech__container-active");
-			var prevSlide = currentSlide.prev();
+	automationSlide() {
+		$(".test2 > div:gt(0)").hide();
 
-			currentSlide.fadeOut(300).removeClass("tech__container-active");
-			prevSlide.fadeIn(300).addClass("tech__container-active");
-
-			if(prevSlide.length == 0) {
-				$(".tech__container").last().fadeIn(300).addClass("tech__container-active");
-			}
-		});
+				setInterval(function() { 
+				  $('.test2 > div:first')
+				    .fadeOut(1000)
+				    .next()
+				    .fadeIn(1000)
+				    .end()
+				    .appendTo('.test2');
+				},  5000);
 	}
 
 }
 
 export default Slider;
+
