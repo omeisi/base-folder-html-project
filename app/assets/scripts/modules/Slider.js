@@ -32,7 +32,7 @@ class Slider {
 				    .fadeIn(1000)
 				    .end()
 				    .appendTo('.test2');
-				},  5000);
+				},  10000);
 	}
 
 }

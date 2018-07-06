@@ -398,9 +398,11 @@ a {
 		
 		background: url('/assets/images/background.jpg');
 	}
-.page-section__grey {
+.page-section__team {
 		/*background: #43443e;*/
 		background-color: #2f5572;
+	
+
 	}
 .page-section__black {
 		background-color: black;

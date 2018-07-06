@@ -16,9 +16,11 @@
 		background: url('/assets/images/background.jpg');
 	}
 
-	&__grey {
+	&__team {
 		/*background: #43443e;*/
 		background-color: #2f5572;
+	
+
 	}
 
 
