@@ -23,7 +23,7 @@
 
 	
 	@mixin atSmall {
-		margin-bottom: 4rem;
+		margin-bottom: 2rem 0 4rem 0;
 		font-size: 3.7rem;
 
 	}

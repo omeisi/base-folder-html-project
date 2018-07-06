@@ -1,14 +1,1011 @@
 .panel {
+		position: relative;
+		width: 100%;
+		height: 70rem;
+		
+	&__img {
+		width: 100%;
+		height: 100%;
+	}
 
 	
 
-	&__box {
-		margin: 1rem;
-		width: 100px; 
-		height:100px;
-		background-color: red;
-		overflow: hidden;
-		border-radius: 80px ;
 
-	}
+		&__container-USA {
+			position: absolute;
+			top:37%;
+			left: 16%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1.5rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom:0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* USA ENDS*/	
+		&__container-CANADA {
+			position: absolute;
+			top:23%;
+			left: 15%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* CANADA ENDS*/
+
+		&__container-UK {
+			position: absolute;
+			top:24%;
+			left: 45%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 2rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* UK ENDS*/
+		&__container-ITALY {
+			position: absolute;
+			top:30%;
+			left: 50%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* ITALY ENDS*/
+		&__container-SPAIN {
+			position: absolute;
+			top:30%;
+			left: 44%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* SPAIN ENDS*/
+
+		&__container-FRANCE {
+			position: absolute;
+			top:27%;
+			left: 47%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* FRANCE ENDS*/
+
+		&__container-UAE {
+			position: absolute;
+			top:38%;
+			left: 63%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1.5rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* UAE ENDS*/
+
+		&__container-INDONESIA {
+			position: absolute;
+			top:54%;
+			left: 81%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 0.3rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* INDONESIA ENDS*/
+
+		&__container-PHILIPPINES {
+			position: absolute;
+			top:54%;
+			left: 81%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 0.3rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* PHILIPPINES ENDS*/
+
+		&__container-INDIA {
+			position: absolute;
+			top:40%;
+			left: 71%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1.5rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* AUSTRALIA ENDS*/
+
+		&__container-AUSTRALIA {
+			position: absolute;
+			top:61%;
+			left: 89%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 0rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* AUSTRALIA ENDS*/
+
+		&__container-CHINA {
+			position: absolute;
+			top:36%;
+			left: 80%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* CHINA ENDS*/
+
+		&__container-MEXICO {
+			position: absolute;
+			top:40%;
+			left: 14%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* MEXICO ENDS*/	
+
+		&__container-BRAZIL {
+			position: absolute;
+			top:60%;
+			left: 31%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* BRAZIL ENDS*/
+
+		&__container-GERMANY {
+			position: absolute;
+			top:24%;
+			left: 49%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* GERMANY ENDS*/
+
+		&__container-COLOMBIA {
+			position: absolute;
+			top:50%;
+			left: 24%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* COLOMBIA ENDS*/	
+
+		&__container-PERU {
+			position: absolute;
+			top:60%;
+			left: 24%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* PERU ENDS*/	
+
+		&__container-ARGENTINA {
+			position: absolute;
+			top:79%;
+			left: 29%;
+			opacity: 1;
+			cursor: pointer;
+
+			&--name {
+			color: white;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 1rem ;
+			border-radius: 10px;
+			margin: 0 0 0 1rem;
+			font-size: 0.8rem;
+			}
+
+			&--pin {
+			margin: 5rem 0 0 1rem;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			opacity: 0.7;
+			margin-top: .2rem;
+			}
+
+			&--content {
+			
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			background-color: black;
+			color: white;
+			padding:  1rem;
+			border-radius: 10px;
+			font-weight: 400; 
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity .2s, visibility .2s;
+			width: 300px;
+			text-align: center;
+			}
+
+			&:hover &--content{
+			
+			transition: opacity .2s, visibility .2s;
+			visibility: visible;
+			opacity: 1;
+			cursor:pointer;
+			background-color: rgba(0,0,0, 0.5);
+
+  			}
+
+		}
+/* ARGENTINA ENDS*/		
 }
+
+		
+
+
+
+
+
+
+
+
+

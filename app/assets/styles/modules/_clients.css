@@ -1,5 +1,6 @@
 .clients {
-	
+		
+
 	&__container{
 		margin:auto;
 		
@@ -8,11 +9,12 @@
 	&__img {
 		width: 86px;
 		height: 70px;
-		margin: 30px;
+		margin: 20px;
 		filter: grayscale(100%);
 		opacity: 0.5;
 		border-radius: 10px;
-		
+
+
 		
 	}
 
@@ -24,4 +26,14 @@
 	    box-shadow: 0px 5px 50px 10px rgba(0,0,0,.1);
 	    border-radius: 10px; 
 	}
+
+	&__last {
+		width: 300px;
+		margin-left: 391px;
+		
+	}
+
+	
+
+	
 }

@@ -1,6 +1,7 @@
 .team {
 		
 		margin-bottom: 40px;
+		
 
 		&:hover {
 		    transform: scale(1.1,1.1);
