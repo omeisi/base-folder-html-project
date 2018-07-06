@@ -274,6 +274,10 @@ body {
 	font-family: 'Roboto', 'sans-serif';
 	color:black;
 	
+	background: url('/assets/images/background-test.jpg') ;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 * {
 	box-sizing: border-box;
@@ -391,10 +395,12 @@ a {
 	}
 	}
 .page-section__blue {
-		background-color: #2f5572;
+		
+		background: url('/assets/images/background.jpg');
 	}
 .page-section__grey {
-		background: #43443e;
+		/*background: #43443e;*/
+		background-color: #2f5572;
 	}
 .page-section__black {
 		background-color: black;
@@ -564,7 +570,7 @@ a {
 .team__info {
 		text-align: center;
 		font-size: 1rem;
-		color:#4c4c4c;
+		color: white;
 	}
 .team__linkedin {
 		width: 2rem;

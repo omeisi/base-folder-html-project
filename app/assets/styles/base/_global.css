@@ -3,7 +3,13 @@ body {
 	font-family: 'Roboto', 'sans-serif';
 	color:black;
 	
+	background: url('/assets/images/background-test.jpg') ;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 * {
 	box-sizing: border-box;

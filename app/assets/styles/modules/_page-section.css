@@ -12,11 +12,13 @@
 	}
 
 	&__blue {
-		background-color: #2f5572;
+		
+		background: url('/assets/images/background.jpg');
 	}
 
 	&__grey {
-		background: #43443e;
+		/*background: #43443e;*/
+		background-color: #2f5572;
 	}
 
 
