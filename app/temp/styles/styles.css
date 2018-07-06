@@ -274,7 +274,7 @@ body {
 	font-family: 'Roboto', 'sans-serif';
 	color:black;
 	
-	background: url('/assets/images/background-test.jpg') ;
+	background: url('../../assets/images/background-test.jpg') ;
 	 background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -404,7 +404,7 @@ a {
 		background-color: black;
 	}
 .page-section__picture-service {
-		background: url('/assets/images/team-background.jpg') top center no-repeat;
+		background: url('../../assets/images/team-background.jpg') top center no-repeat;
 		background-size: cover;
 	}
 .headline {
