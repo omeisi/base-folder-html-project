@@ -998,7 +998,7 @@ a {
 	}
 .panel__container-USA {
 			position: absolute;
-			top:37%;
+			top:40%;
 			left: 16%;
 			opacity: 1;
 			cursor: pointer;
@@ -1013,12 +1013,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-USA--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-USA--content {
 			
@@ -1048,7 +1047,7 @@ a {
 /* USA ENDS*/
 .panel__container-CANADA {
 			position: absolute;
-			top:23%;
+			top:26%;
 			left: 15%;
 			opacity: 1;
 			cursor: pointer;
@@ -1063,12 +1062,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-CANADA--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-CANADA--content {
 			
@@ -1098,7 +1096,7 @@ a {
 /* CANADA ENDS*/
 .panel__container-UK {
 			position: absolute;
-			top:24%;
+			top:27%;
 			left: 45%;
 			opacity: 1;
 			cursor: pointer;
@@ -1113,12 +1111,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-UK--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-UK--content {
 			
@@ -1148,7 +1145,7 @@ a {
 /* UK ENDS*/
 .panel__container-ITALY {
 			position: absolute;
-			top:30%;
+			top:34%;
 			left: 50%;
 			opacity: 1;
 			cursor: pointer;
@@ -1163,12 +1160,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-ITALY--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-ITALY--content {
 			
@@ -1198,7 +1194,7 @@ a {
 /* ITALY ENDS*/
 .panel__container-SPAIN {
 			position: absolute;
-			top:30%;
+			top:33%;
 			left: 44%;
 			opacity: 1;
 			cursor: pointer;
@@ -1213,12 +1209,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-SPAIN--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-SPAIN--content {
 			
@@ -1248,7 +1243,7 @@ a {
 /* SPAIN ENDS*/
 .panel__container-FRANCE {
 			position: absolute;
-			top:27%;
+			top:30%;
 			left: 47%;
 			opacity: 1;
 			cursor: pointer;
@@ -1263,12 +1258,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-FRANCE--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-FRANCE--content {
 			
@@ -1298,7 +1292,7 @@ a {
 /* FRANCE ENDS*/
 .panel__container-UAE {
 			position: absolute;
-			top:38%;
+			top:42%;
 			left: 63%;
 			opacity: 1;
 			cursor: pointer;
@@ -1313,12 +1307,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-UAE--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-UAE--content {
 			
@@ -1348,7 +1341,7 @@ a {
 /* UAE ENDS*/
 .panel__container-INDONESIA {
 			position: absolute;
-			top:54%;
+			top:56%;
 			left: 81%;
 			opacity: 1;
 			cursor: pointer;
@@ -1363,12 +1356,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-INDONESIA--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-INDONESIA--content {
 			
@@ -1398,8 +1390,8 @@ a {
 /* INDONESIA ENDS*/
 .panel__container-PHILIPPINES {
 			position: absolute;
-			top:54%;
-			left: 81%;
+			top:45%;
+			left: 84%;
 			opacity: 1;
 			cursor: pointer;
 
@@ -1413,12 +1405,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-PHILIPPINES--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-PHILIPPINES--content {
 			
@@ -1448,7 +1439,7 @@ a {
 /* PHILIPPINES ENDS*/
 .panel__container-INDIA {
 			position: absolute;
-			top:40%;
+			top:43%;
 			left: 71%;
 			opacity: 1;
 			cursor: pointer;
@@ -1463,12 +1454,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-INDIA--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-INDIA--content {
 			
@@ -1498,7 +1488,7 @@ a {
 /* AUSTRALIA ENDS*/
 .panel__container-AUSTRALIA {
 			position: absolute;
-			top:61%;
+			top:64%;
 			left: 89%;
 			opacity: 1;
 			cursor: pointer;
@@ -1513,12 +1503,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-AUSTRALIA--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-AUSTRALIA--content {
 			
@@ -1548,7 +1537,7 @@ a {
 /* AUSTRALIA ENDS*/
 .panel__container-CHINA {
 			position: absolute;
-			top:36%;
+			top:40%;
 			left: 80%;
 			opacity: 1;
 			cursor: pointer;
@@ -1563,12 +1552,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-CHINA--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-CHINA--content {
 			
@@ -1598,7 +1586,7 @@ a {
 /* CHINA ENDS*/
 .panel__container-MEXICO {
 			position: absolute;
-			top:40%;
+			top:43%;
 			left: 14%;
 			opacity: 1;
 			cursor: pointer;
@@ -1613,12 +1601,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-MEXICO--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-MEXICO--content {
 			
@@ -1648,7 +1635,7 @@ a {
 /* MEXICO ENDS*/
 .panel__container-BRAZIL {
 			position: absolute;
-			top:60%;
+			top:65%;
 			left: 31%;
 			opacity: 1;
 			cursor: pointer;
@@ -1663,12 +1650,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-BRAZIL--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-BRAZIL--content {
 			
@@ -1698,8 +1684,8 @@ a {
 /* BRAZIL ENDS*/
 .panel__container-GERMANY {
 			position: absolute;
-			top:24%;
-			left: 49%;
+			top:27%;
+			left: 50%;
 			opacity: 1;
 			cursor: pointer;
 
@@ -1713,12 +1699,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-GERMANY--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-GERMANY--content {
 			
@@ -1748,7 +1733,7 @@ a {
 /* GERMANY ENDS*/
 .panel__container-COLOMBIA {
 			position: absolute;
-			top:50%;
+			top:55%;
 			left: 24%;
 			opacity: 1;
 			cursor: pointer;
@@ -1763,12 +1748,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-COLOMBIA--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-COLOMBIA--content {
 			
@@ -1798,7 +1782,7 @@ a {
 /* COLOMBIA ENDS*/
 .panel__container-PERU {
 			position: absolute;
-			top:60%;
+			top:62%;
 			left: 24%;
 			opacity: 1;
 			cursor: pointer;
@@ -1813,12 +1797,11 @@ a {
 			font-size: 0.8rem;
 			}
 .panel__container-PERU--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-PERU--content {
 			
@@ -1859,16 +1842,14 @@ a {
 			background-color: rgba(0,0,0, 0.5);
 			padding: 1rem ;
 			border-radius: 10px;
-			margin: 0 0 0 1rem;
 			font-size: 0.8rem;
 			}
 .panel__container-ARGENTINA--pin {
-			margin: 5rem 0 0 1rem;
 			position: absolute;
-			width: 80px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			opacity: 0.7;
-			margin-top: .2rem;
+			margin-left: 1.5rem;
 			}
 .panel__container-ARGENTINA--content {
 			
